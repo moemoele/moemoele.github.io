@@ -1,41 +1,41 @@
-site: Gesko
-title: Gesko
-greetings: Hi 👋
+site: MòeVL
+title: MòeVL
+greetings: MòeVL 😎
 description: >-
-  just a minimalist, personal blog
+  Nhật ký học lập trình của một n00b
 lang: en-US
-timezone:  Europe/Rome
+timezone: Europe/Rome
 repo: https://github.com/p0wex/Gesko # site repo [optional]
 data-theme: dark # default theme "dark" | "light"
-discus-identifier: powex # replace with your disqus shortname
+#discus-identifier: powex # replace with your disqus shortname
 
 author:
-  name: gesko
-  bio: just a minimalist, personal blog
-  userpicture: 
+  #name: gesko
+  #bio: just a minimalist, personal blog
+  userpicture:
   username: # general username
   github: # github username
   twitter: # twitter username
-  email: your-email@email.com # email adress
+  #email: your-email@email.com # email adress
 
 # Font Settings
 googlewebfonts: family=Play:wght@400;700&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700;1,900
 
 # URL settings
-url: "https://p0wex.github.io" # Domain Name of host. [username].github.io for github pages
-baseurl: "/Gesko" # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front.
-permalink: pretty
+url: "https://moevl.com" # Domain Name of host. [username].github.io for github pages
+# baseurl: "/Gesko" # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front.
+
+paginate: 6
+paginate_path: "/page-:num/"
 
 # local
-# url: "http://localhost:4000" # 
-# baseurl: "" # 
-
+# url: "http://localhost:4000" #
+# baseurl: "" #
 
 markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-
 
 exclude:
   - .jekyll-cache
@@ -45,7 +45,7 @@ exclude:
   - LICENSE.md
   - README.md
   - CONTRIBUTING.md
-  
+
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
@@ -65,29 +65,24 @@ collections:
     permalink: /:name
   posts:
     output: true
-    permalink: /:year/:month/:day/:slug
-  
+    permalink: /:title
+
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: "default"
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:
       layout: "page"
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
 
 relative_links:
-  enabled:     true
+  enabled: true
   collections: false
-
-
