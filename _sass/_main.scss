@@ -8,10 +8,6 @@
   padding: 0;
 }
 
-html {
-  font-size: 15px;
-}
-
 #theme-toggle {
   opacity: 0.65;
   position: relative;
@@ -330,7 +326,9 @@ b {
   margin-bottom: 0.5rem;
 }
 
-.posts li a,
+.posts li a {
+  font-weight: bold;
+}
 .posts li div,
 .projects li a {
   white-space: nowrap;
