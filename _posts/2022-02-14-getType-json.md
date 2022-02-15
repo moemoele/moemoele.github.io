@@ -1,6 +1,6 @@
 ---
 title: Tên method không giống với điều nó làm
-tags: other devdoc
+tags: other devdoc til
 ---
 
 Đọc mấy tên method muốn lộn mề. Ví dụ method `json()` của object `Response`, nghe cứ tưởng là convert ra JSON?! Thực chất là nó **nhận** dữ liệu JSON rồi convert ra object.
