@@ -29,3 +29,7 @@ Tung hoành trên cõi mạng bấy lâu mình thấy rất dễ vô tình gây 
 ## TIL
 
 Có những thứ mình từng tưởng là đúng nhưng lại hóa ra sai, việc đưa kiến thức sai quả là nguy hiểm, ảnh hưởng rất xấu đến thói quen lập trình của nhiều người vô tội. Vì thế nên viết về những thứ bản thân mình đã làm thạo và fix lỗi liên quan ít nhất vài lần. Khi viết về những cái mình mới tìm hiểu ở thời điểm viết thì gắn thẻ TodayILearnt như kiểu xe tập lái gắn biển để mọi người xung quanh đi cẩn thận.
+
+## Không copy paste hoặc vừa dòm ngó ở đâu vừa viết
+
+Hiểu cái gì thì viết cái đó, không xào nấu lại của document khác, không viết lại những cái người khác dễ dàng tìm được trên mạng, không tạo thêm content rác thừa thãi lên không gian mạng.
